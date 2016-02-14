@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /backupdisk
+sudo tar -cvpzf "home$(date +%m%d%Y).tgz" /home /usr/share/applications /usr/share/pixmaps /etc/pm/sleep.d/00-dbus-suspend /etc/grub.d/40_custom
